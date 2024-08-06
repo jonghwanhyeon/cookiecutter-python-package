@@ -1,0 +1,19 @@
+{
+  "project_name": "Python Package",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_package": "{{ cookiecutter.project_slug.removeprefix('python-').replace('-', '_') }}",
+  "project_description": "Boilerplate for a Python package",
+  "version": "1.0.0",
+  "keywords": "",
+  "author": "Jonghwan Hyeon",
+  "email": "jonghwanhyeon93@gmail.com",
+  "github_username": "jonghwanhyeon",
+  "__github_repository": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+  "license": ["MIT", "BSD", "None"],
+  "python_requires": "3.7",
+  "_python_versions": ["3.7", "3.8", "3.9", "3.10", "3.11", "3.12"],
+  "docs_theme_color": ["amber", "black", "blue", "blue grey", "brown", "cyan", "deep orange", "deep purple",
+                       "green", "grey", "indigo", "light blue", "light green", "lime", "orange", "pink",
+                       "purple", "red", "teal", "white", "yellow"],
+  "_extensions": ["extensions.python_requires"]
+}
